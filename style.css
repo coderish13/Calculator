@@ -1,0 +1,49 @@
+body{
+    background-image: url(blur.jpg);
+    background-size: cover;
+}
+.container {
+    text-align: center;
+    margin-top: 23px;
+}
+h1{
+    background: #1169CF;
+    background: -webkit-linear-gradient(to right, #1169CF 0%, #CF0614 86%);
+    background: -moz-linear-gradient(to right, #1169CF 0%, #CF0614 86%);
+    background: linear-gradient(to right, #1169CF 0%, #CF0614 86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+table{
+    margin: auto;
+}
+input{
+    color: white;
+    background: none;
+    border-radius: 10px;
+    border: 2px solid slategray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    height: 50px;
+    width: 445px;
+}
+button{
+    background: none;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    /* background-color: slategray; */
+    width: 102px;
+    height: 70px;
+    margin: 5px;
+}
+.calculator{
+    background: none;
+    /* background-color: rgb(149, 160, 172); */
+    padding: 15px;
+    border-radius: 50px;
+    display: inline-block;
+}
